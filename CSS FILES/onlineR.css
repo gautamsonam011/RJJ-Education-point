@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.bg-img-color{
+    background-image: radial-gradient(rgb(16, 55, 52), rgb(40, 103, 86), rgb(67, 127, 137));
+}
+label{
+    margin: 3px;
+    color: beige;
+    font-size: x-large;
+    font-weight: 600;
+    font-family: serif;
+}
+.main-form{
+    width:auto;
+    height: auto;
+    color: azure;
+    padding:5rem;
+    background: chocolate;
+    font-weight: 700;
+    font-family: serif;
+    box-sizing: border-box;
+    box-shadow: -2px -2px 5px rgba(8, 7, 7, 0.3),
+        5px 5px 5px rgba(11, 10, 10, 0.2),
+        15px 15px 15px rgba(4, 1, 1, 0.2);
+}
+h3{
+    color: azure;
+    font-family: serif;
+}

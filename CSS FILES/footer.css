@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+footer {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffb8bf;
+}
+.logo {
+    width: 150px;
+    height: 100px;
+    padding-left: 3rem;
+}
+.conns {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem;
+    justify-content: center;
+}
+ul{
+    list-style: none;
+}
+li a{
+    font-size: 20px;
+    transition: 2s;
+    color: aliceblue;
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+}
+li a:hover{
+    color:chocolate
+}
+/* ===============newsletter======== */
+input[type=text], input[type=submit] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  input[type=checkbox] {
+    margin-top: 16px;
+  }
+  
+  input[type=submit] {
+    background-color: #092924;
+    color: white;
+    border: none;
+    border-radius: 50px;
+  }
+  
+  input[type=submit]:hover {
+    opacity: 0.8;
+  }
+  .form-news{
+    padding: 2rem;
+    border-radius: 10px;
+    background: #f3efef;
+  }
+  /* =================================== */
+  
+
+  .footer-level{
+    width:100%;
+    height: 100px;
+    overflow:hidden;
+    position:relative;
+    }
+    .footer-level::before{ 
+    content:'';
+    font-family:'shape divider from ShapeDividers.com';
+    position: absolute;
+    z-index: 3;
+    pointer-events: none;
+    background-repeat: no-repeat;
+    bottom: -0.1vw;
+    left: -0.1vw;
+    right: -0.1vw;
+    top: -0.1vw; 
+    background-size: 100% 90px;
+    background-position: 50% 100%;  background-image: url('data:image/svg+xml;charset=utf8, <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100"><g fill="%23ffb8bf"><path opacity=".5" d="M0 13.2v12.2l220.7 19.2L0 70.9v11.3l250-38.1L0 13.2z"/><path opacity=".5" d="M0 25.4v8.8l145.2 12.6L0 64.1v6.8l220.7-26.3L0 25.4z"/><path opacity=".5" d="M0 25.4v8.8l145.2 12.6L0 64.1v6.8l220.7-26.3L0 25.4z"/><path opacity=".5" d="M0 34.2v29.9l145.2-17.3L0 34.2z"/><path opacity=".5" d="M0 34.2v29.9l145.2-17.3L0 34.2z"/><path opacity=".75" d="M0 34.2v29.9l145.2-17.3L0 34.2z"/><path opacity=".5" d="M750 44.1l250 38.1V69.9L779.3 43.6 1000 24.4V13.2L750 44.1zM750 44.1l-250-31-250 31 250 38zM500 24.4l220.7 19.3L500 69.8 279.3 43.6z"/><path d="M500 82.2L250 44.1 0 82.2v18h1000v-18L750 44.1 500 82.2z"/><path d="M720.7 43.6L500 24.4 279.3 43.7 500 69.8zM500 30.3l164.6 14.3L500 64.1 335.4 44.5z" opacity=".5"/><path d="M720.7 43.6L500 24.4 279.3 43.7 500 69.8zM500 30.3l164.6 14.3L500 64.1 335.4 44.5z" opacity=".5"/><path opacity=".5" d="M664.6 44.5L500 30.2 335.4 44.5 500 64.1l164.6-19.6z"/><path opacity=".5" d="M664.6 44.5L500 30.2 335.4 44.5 500 64.1l164.6-19.6z"/><path opacity=".75" d="M664.6 44.5L500 30.2 335.4 44.5 500 64.1l164.6-19.6z"/><path opacity=".5" d="M1000 69.9v-5.8L854.9 46.8 1000 34.2v-9.8L779.3 43.6 1000 69.9z"/><path opacity=".5" d="M1000 69.9v-5.8L854.9 46.8 1000 34.2v-9.8L779.3 43.6 1000 69.9z"/><path opacity=".5" d="M1000 64.1V34.2L854.9 46.8 1000 64.1z"/><path opacity=".5" d="M1000 64.1V34.2L854.9 46.8 1000 64.1z"/><path opacity=".75" d="M1000 64.1V34.2L854.9 46.8 1000 64.1z"/></g></svg>'); 
+    }
+    
+    @media (min-width:2100px){
+      .footer-level::before{
+    background-size: 100% calc(2vw + 90px);
+    }
+    }
+    .copyright{
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+    .copyright a{
+      font-family: serif;
+      font-weight: 700;
+      text-decoration: none;
+      color: cornflowerblue;
+    }
+    .credit{
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    .credit a{
+      font-family: serif;
+      font-weight: 700;
+      text-decoration: none;
+      color: cornflowerblue;
+    }

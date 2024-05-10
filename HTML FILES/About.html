@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <!-- Link of bootstrap width CSS and JS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Font Awesome Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- CSS link -->
+    <link rel="stylesheet" href="../CSS FILES/Navbar.css">
+    <link rel="stylesheet" href="../CSS FILES/About.css">
+    <link rel="stylesheet" href="../CSS FILES/footer.css">
+    <link rel="stylesheet" href="../CSS FILES/Home.css">
+    <!-- AOS CSS Link -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- JS Link -->
+    <script src="../JAVASCRIPT FILES/Home.js"></script>
+</head>
+
+<body>
+    <!--now start navbar  -->
+    <header>
+        <div class="container-fluid">
+          <div class="row p-1">
+            <div class="col-md-8">
+              <div style="text-align: center; margin-left: 1rem;">
+                <i class="fa-solid fa-location-dot fa-xl" style="color: #fe0862;"></i> <a href="#"
+                  class="head-a">Location</a>
+                <i class="fa-solid fa-phone-volume fa-xl" style="color: #fe0862;"></i> <a href="tel:9335612377" class="head-a">
+                  9335612377</a><a href="tel:8005082793" class="head-a">
+                    8005082793</a>
+                <i class="fa-solid fa-envelope fa-xl" style="color: #fe0862;"></i> <a href="mailto:rjjeducationpoint@gmail.com"
+                  class="head-a">rjjeducationpoint@gmail.com</a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="nav-icons">
+                <a href="#"><i class="fa-brands fa-twitter fa-xl" style="color: #fe0862;"></i></a>
+                <a href="#" style="margin-left: 2rem;"><i class="fa-brands fa-facebook fa-xl"
+                    style="color: #fe0862;"></i></a>
+                <a href="#" style="margin-left: 2rem;"><i class="fa-brands fa-instagram fa-xl"
+                    style="color: #fe0862;"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!--=============================Now start nav bar=====================================-->
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <img src="../RJJIMAGES/logo.png" id="logo">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../HTML FILES/index.html" id="text">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../HTML FILES/About.html" id="text">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../HTML FILES/Admission.html" id="text">Admissions</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                  style="color: white;font-family: 'DM Serif Display', serif; font-size: x-large;" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Students Support
+                </a>
+                <ul class="dropdown-menu bg-danger" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="../HTML FILES/Syllabus.html" id="text">Syllabus</a></li>
+                  <li><a class="dropdown-item" href="../HTML FILES/Events.html" id="text">Events</a></li>
+                  <li><a class="dropdown-item" href="../HTML FILES/Books.html" id="text">Books</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../HTML FILES/Gallery.html" id="text">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../HTML FILES/Contactus.html" id="text">Contact Us</a>
+              </li>
+              <li>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn" style="background: #19693e;" data-bs-toggle="modal"
+                  data-bs-target="#staticBackdrop"><h5 style="color: #fff; font-family: 'DM Serif Display', serif;">Login</h5>
+                  <!-- <i class="fa-solid fa-user fa-2xl" style="color: #fff;"></i> -->
+                </button>
+                <!-- Modal -->
+                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                  aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content" style="background: #2da7a4;opacity: 6; color:#fff; font-family: serif,cursive; margin-top: 7rem;">
+                      <div class="modal-header">
+                        <h5 class="modal-title text-center" id="staticBackdropLabel">Login Form</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <form>
+                          <label>First Name</label>
+                          <input type="text" class="form-control">
+                          <label>Last Name</label>
+                          <input type="text" class="form-control">
+                          <label>Email Id</label>
+                          <input type="email" class="form-control">
+                          <label>Password</label>
+                          <input type="password" size="10" class="form-control">
+                          <input class="form-check-input" type="checkbox" value="" id="loginCheck" checked />
+                          <label class="form-check-label" for="loginCheck"> Remember me </label>
+                          <!-- Simple link -->
+                          <a href="#!" style="color:#fff;text-decoration: none; margin-left: 2rem;">Forgot password?</a>
+                        </form>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="submit" class="btn" style="background: #205733; color: #fff; align-items: center;" >Login</button>
+                        <button type="button" class="btn" style="background: #814d48; color: #fff;" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!-- end of navbar -->
+    <!-- First section start -->
+    <div>
+        <div class="Aboutchild" width="100%">
+            <h4>About Of R.J.J Education Point School</h4>
+        </div>
+        <!-- <img src="../RJJIMAGES/Aboutchild.png" width="100%"> -->
+    </div>
+    <!-- Start About Us part of code -->
+    <div class="aboutbg mt-5 text-center">
+        <div class=" container bxx">
+            <h2 class="text-center">About Us</h2>
+            <p>R.J.J Education Point School is the best school in Sitapur area.It provides the best facilities for
+                students. A school is an educational institution designed to provide learning spaces and learning
+                environments for the teaching of students under the direction of teachers. Most countries have systems
+                of formal education, which is sometimes compulsory. In these systems, students progress through a series
+                of schools</p>
+        </div>
+    </div>
+    <div class="about-level"></div>
+    <!-- About the school -->
+    <div
+        style="background-image: url(../RJJIMAGES/green.png); padding: 4rem;clip-path: polygon(0 0, 100% 0, 100% 100%, 46% 91%, 0 100%);">
+        <div class="container">
+            <div class="row">
+                <h1 class="text-center" style="color: #fe0862; font-weight: 800; font-family: serif;"><b>About The
+                        School</b></h1>
+                <div class="col-md-4">
+                    <div class="box-2">
+                        <div class="box-3">
+                            <img src="../RJJIMAGES/achievement.png">
+                        </div>
+                        <h5>YOUR CHILD DESERVES AN OPPORTUNITY TO ACHIEVE THEIR DREAMS TO THE FULLEST.</h5>
+                        <p>Unlock the doors to all-round holistic excellence at R.J.J Education Point School.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="box-2">
+                        <div class="box-3">
+                            <img src="../RJJIMAGES/education-book.png">
+                        </div>
+                        <h5>ACADEMIC, CO-CURRICULAR, PERSONAL, EMOTIONAL, AND SPIRITUAL BRILLIANCE</h5>
+                        <p>Time to ensure that your child gets what he deserves. It’s time to take him to R.J.J
+                            Education Point School.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="box-2">
+                        <div class="box-3">
+                            <img src="../RJJIMAGES/education.png">
+                        </div>
+                        <h5>ABOUT R.J.J EDUCATION POINT SCHOOL</h5>
+                        <p>Brighten your child’s future at this School. <b style="color: #fe0862; font-family: serif;font-size: x-large;"></b></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- vision and mission -->
+    <div class="container mt-5">
+        <div class="row">
+            <h2 style="text-align: center; font-family: serif; color: #fe0862;"><b>Vision & Mission</b></h2>
+            <div class="col-md-6">
+                <div class="card2">
+                    <img src="../RJJIMAGES/vision.png" width="80%">
+                </div>
+                <div class="card3">
+                    <h2><b>Vision</b></h2>
+                    <p>Our vision is to constantly strive to implement, innovate and align ourselves with the latest
+                        means and methods of education. We believe in preserving the traditional ways of learning while
+                        focusing on a pragmatic approach. The school analyses all prevailing methods and techniques
+                        available worldwide to come up with best practices apt for our students. We realize that
+                        improvement is an ongoing process and our practices are assessed relentlessly as we move
+                        forward.</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card2">
+                    <img src="../RJJIMAGES/mission.png" width="80%">
+                </div>
+                <div class="card3">
+                    <h2><b>Mission</b></h2>
+                    <p>To educate young people in ways that prepare them to be active, free thinking, and socially
+                        responsible citizens in a democratic society. Our mission is to develop the intellectual,
+                        aesthetic, moral, physical, social and emotional potential of the students. The school
+                        atmosphere fosters the allegiance of the students to their cultural heritage and promotes
+                        respect and tolerance between students and teachers. The students are rooted to their culture.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About our founder -->
+    <div class="container mt-5">
+        <h2 style="text-align: center; font-family: serif; color: #fe0862;"><b>Founder, Manager & Principal</b></h2>
+        <div class="contain-1">
+            <div class="card1">
+                <div class="card1-img">
+                    <img src="../RJJIMAGES/founder.png">
+                </div>
+                <div class="card1-content">
+                    <h2><b>By Founder</b></h2>
+                    <p>R.J.J Education Point, Beerampur Machhrehta in Distt-Sitapur, is one of my major projects in
+                        service
+                        of mankind.I have always been looking for opportunities to serve the people of my society.Having
+                        seen the need of qualitative education in the area.I ventured into the field with a hope to
+                        serve
+                        the community.<br><b style="color: #fe0862; font-family: serif;">Founder - Mr. Jagdish Jaiswal</b></p>
+                </div>
+            </div>
+            <div class="card1">
+                <div class="card1-img">
+                    <img src="../RJJIMAGES/manager.png" width="100%">
+                </div>
+                <div class="card1-content">
+                    <h2><b>By Manager</b></h2>
+                    <p>We all know the childhood, pristine & blissful, are the best phase in the ever turning wheel of
+                        life
+                        and education certainly plays an indispensable role in child's life as true education transcends
+                        all
+                        boundaries and essential preparation of life.<br>
+                        <b style="color: #fe0862; font-family: serif;">Manager - Mr. Kuldeep Jaiswal</b></p>
+                </div>
+            </div>
+            <div class="card1">
+                <div class="card1-img">
+                    <img src="../RJJIMAGES/principle.png">
+                </div>
+                <div class="card1-content">
+                    <h2><b>By Principal</b></h2>
+                    <p>The role of our school is not only to pursue Academic excellence but also to motivate and empower
+                        it's students to be life long learners of our ever changing global society. we believe in a
+                        joyful
+                        experiential learning systems to inclucate the love of knowledge in our students and for this.<br>
+                        <b style="color: #fe0862; font-family: serif;">Principal - Mrs. Pooja Jaiswal</b>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Now Start Connect With for more information -->
+    <div>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="../RJJIMAGES/sv.png.png" width="100%" height="100%" style="border-radius: 0 2rem;">
+                </div>
+                <div class="col-md-6">
+                    <form class="divconform">
+                        <h5 class="text-center" style="font-family: serif;"><b>Connect With Me For Other Information</b>
+                        </h5>
+                        <label>First Name</label>
+                        <input type="text" class="form-control">
+                        <label>Last Name</label>
+                        <input type="text" class="form-control">
+                        <label>Mobile Number</label>
+                        <input type="number" class="form-control">
+                        <label>Email Id</label>
+                        <input type="email" class="form-control">
+                        <label>Message</label>
+                        <input type="text" class="form-control" size="50">
+                        <button class="form-control mt-2 bg-info">Summit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ===========================Classes=================== -->
+    <div class="container-fluid">
+        <div class=""></div>
+    </div>
+    <!-- ===================Now start Footer============ -->
+    <div class="footer-level mt-5"></div>
+    <footer>
+        <div class="container-fluid">
+            <div class="row justify-content-center mt-5">
+                <div class="col-md-3">
+                    <img src="../RJJIMAGES/logo.png" class="logo">
+                    <h5 style="text-decoration: none; color: rgb(9, 9, 9); font-family: 'Playfair Display', serif;">
+                        Beerampur-Macharhta District-Sitapur Uttar Pradesh</h5>
+                </div>
+                <div class="col-md-3 footer-contact" style="font-family: 'Playfair Display', serif; text-align: center;">
+                    <h4 class="text-center" style="text-decoration: none; color: rgb(10, 10, 10); font-family: 'Playfair Display', serif;"><b>Contact Us</b></h4>
+                    <p class=" text-center" style="color: rgb(13, 13, 13);"> <strong>School Address :</strong> </p>
+                    <p class="text-center" style="color: rgb(15, 15, 16);">Beerampur-Macharhta District-Sitapur<br> Uttar Pradesh, India<br></p>
+                       <p class="text-white text-center" style="color: rgb(9, 10, 10);"> <strong style="color: rgb(11, 12, 12);">Phone:&nbsp</strong><a href="tel:9335612377" style="color: rgb(6, 6, 6); text-decoration: none;"> +919335612377, </a> <a href="tel:9335612377" style="color: rgb(16, 54, 60); text-decoration: none;">+919335612377</a><br></p>
+                    <div class="social-links">
+                        <a href="#" target="_blank"><i class="fab fa-facebook-f" style="color: #fe0862;"></i></a>
+                        <a href="#" target="_blank" class="m-2"><i class="fab fa-twitter" style="color: #fe0862;"></i></a>
+                        <a href="#" target="_blank" class="m-2"><i class="fab fa-instagram" style="color: #fe0862;"></i></a>
+                        <a href="#" target="_blank" class="m-2"><i class="fab fa-linkedin-in" style="color: #fe0862;"></i></a>
+                        <!--<a href="https://namratauniversal.com/"><i class="ion-logo-googleplus"></i></a>-->
+                    </div>
+
+                </div>
+                <div class="col-md-3 justify-content-center">
+                    <h4 style=" color: rgb(15, 15, 15); font-family: 'Playfair Display', serif;"><b>Useful Links</b></h4>
+                    <ul>
+                        <li><a href="About.html" style="color: rgb(9, 9, 9);">About Us</a></li>
+                        <li><a href="Admission.html" style="color: rgb(8, 9, 9);">Admission</a></li>
+                        <li><a href="Syllabus.html" style="color: rgb(11, 11, 11);">Syllabus</a></li>
+                        <li><a href="Gallery.html" style="color: rgb(12, 12, 12);">Gallery</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h4 style=" color: rgb(7, 7, 7); font-family: 'Playfair Display', serif; text-align: center;">
+                        <b>Newsletter</b>
+                    </h4>
+                    <form class="form-news">
+                        <input placeholder="Enter the name..." class="form-control">
+                        <input placeholder="Email.." class="form-control mt-3">
+                        <label>
+                            <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
+                        </label>
+                        <input type="submit" value="Subscribe">
+                    </form>
+                </div>
+            </div>
+            <div class="row">
+                <div class="container">
+                    <div class="row align-items-center text-white">
+                        <div class="col-md-6 copyright"> Copyright &copy; 2023 <a href="https://namratauniversal.com/">Namrata Universal</a> All Rights Reserved.
+                        </div>
+                        <div class="col-md-6 credit">
+                            Design by <a href="https://namratauniversal.com/">Namrata Universal</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ==========================End Footer=============== -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

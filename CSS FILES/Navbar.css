@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-image: linear-gradient(rgb(30, 116, 106), rgb(111, 161, 144));
+
+}
+
+.head-a {
+    margin: 1rem;
+    color: white;
+    /* font-weight: 700; */
+    text-decoration: none;
+    font-family: 'DM Serif Display', serif;
+}
+
+.head-a:hover {
+    color: rgb(129, 96, 96);
+}
+
+nav {
+    position: fixed;
+    background-image: linear-gradient(rgb(30, 116, 106), rgb(111, 161, 144));
+}
+
+li {
+    padding-left: 1rem;
+}
+
+#text {
+    color: white;
+    font-size: x-large;
+    font-family: 'DM Serif Display', serif;
+}
+
+#logo {
+    width: 150px;
+    position: absolute;
+    top: -30px;
+    left: 2%;
+    z-index: 1;
+}
+
+.navbar-toggler {
+    margin-left: 80%;
+}
+
+.navbar-toggler-icon {
+    background: rgb(242, 147, 64);
+}
+
+/* ============================================== */
+.nav-icons{
+    margin-left: 200px;
+}
+
+@media screen and (max-width:320px){
+    .nav-icons{
+        margin-left: 50px;
+    }
+}
+@media screen and (max-width:375px){
+    .nav-icons{
+        margin-left: 50px;
+    }
+}
+@media screen and (max-width:425px){
+    .nav-icons{
+        margin-left: 100px;
+    }
+}
+@media screen and (max-width:768px){
+    .nav-icons{
+        margin-left: 50px;
+    }
+}

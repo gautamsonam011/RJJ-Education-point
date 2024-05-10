@@ -1,0 +1,9 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.book{
+    width: auto;
+    /* border: 3px solid chocolate; */
+    box-shadow: 10px 5px 5px 5px rgba(190, 178, 3, 0.2);
+}

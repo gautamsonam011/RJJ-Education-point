@@ -1,0 +1,379 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display&Crimson+Text&display&Abril+Fatface&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    /* position: relative; */
+    box-sizing: border-box;
+}
+.content {
+    font-weight: 700;
+    font-family: serif;
+}
+
+.bgregistration {
+    padding: 4rem;
+    color: rgb(102, 5, 162);
+    background: lightslategrey;
+    background-image: radial-gradient(lightslategrey, rgb(130, 188, 188), rgb(143, 249, 236));
+}
+
+.bgregistration button {
+    border: none;
+    border-radius: 2rem;
+    padding: 0.5rem;
+    font-size: x-large;
+    font-weight: 600;
+    color: aliceblue;
+    background: rgb(102, 5, 162);
+}
+
+.welcometext {
+    padding: 2.5rem;
+    font-size: x-large;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 2px 3px 5px rgb(80, 2, 122);
+}
+
+.bx {
+    text-align: center;
+    margin-top: 3rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.aboutbtn {
+    color: aliceblue;
+    text-align: center;
+    border: none;
+    padding: 1rem;
+    border-radius: 20px;
+    font-size: x-large;
+    font-weight: 600;
+    font-family: monospace;
+    text-decoration: none;
+    background: cadetblue;
+    font-family: monospace;
+}
+
+.aboutbtn:hover {
+    color: wheat;
+    background: teal;
+}
+
+ol {
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding-left: 4rem;
+}
+
+.carousel-item img {
+    overflow: hidden;
+}
+.background-img {
+    width: 100%;
+    height: 50%;
+    padding: 3rem;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to right, rgba(106, 250, 212, 0), rgb(191, 144, 245)), url(../RJJIMAGES/rrj.png.png);
+}
+
+.bx1 {
+    transform: skew(370deg);
+    width: 200px;
+    height: 80px;
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+    opacity: 0.5;
+    background: rgb(226, 225, 225);
+}
+
+.bx1:hover {
+    background: radial-gradient(coral, lightskyblue, indianred);
+}
+
+.bx1 a {
+    color: rgb(218, 28, 18);
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.bx1 a:hover {
+    color: rgb(245, 242, 247);
+}
+
+.bg-g {
+    margin-top: 4rem;
+    background-repeat: no-repeat;
+}
+
+.cont-bg {
+    text-align: center;
+    padding: 2rem;
+    opacity: 0.8;
+    color: rgb(10, 10, 10);
+    /* margin-bottom: 30%; */
+    font-family: serif;
+    background: #ffb8bf;
+}
+
+.cont-bg a {
+    padding: 1rem;
+    color: white;
+    border-radius: 100px;
+    margin-top: 1rem;
+    font-family: serif;
+    text-decoration: none;
+    background-color: teal;
+}
+
+
+.shapedividers{
+    overflow: hidden;
+    position: relative;
+}
+
+
+
+.shapedividers{
+    overflow:hidden;
+    position:relative;
+    }
+    .shapedividers::before{ 
+    content:'';
+    font-family:'shape divider from ShapeDividers.com';
+    position: absolute;
+    z-index: 3;
+    pointer-events: none;
+    background-repeat: no-repeat;
+    bottom: -0.1vw;
+    left: -0.1vw;
+    right: -0.1vw;
+    top: -0.1vw; 
+    background-size: 100% 90px;
+    background-position: 50% 100%;  background-image: url('data:image/svg+xml;charset=utf8, <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" viewBox="0 0 476.62 100.69"><path fill="%23fde386" d="M476.62 100.69V0l-238.3 95.47L0 0v100.69Z"/></svg>'); 
+    }
+    
+    @media (min-width:2100px){
+    .shapedividers::before{
+    background-size: 100% calc(2vw + 90px);
+    }
+    }
+     
+/* =============================================== */
+    
+.news-level{
+    overflow:hidden;
+    position:relative;
+    width:100%;
+    height: 100px;
+    }
+    .news-level::before{ 
+    content:'';
+    font-family:'shape divider from ShapeDividers.com';
+    position: absolute;
+    z-index: 3;
+    pointer-events: none;
+    background-repeat: no-repeat;
+    bottom: -0.1vw;
+    left: -0.1vw;
+    right: -0.1vw;
+    top: -0.1vw; 
+    background-size: 100% 90px;
+    background-position: 50% 0%;  background-image: url('data:image/svg+xml;charset=utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35.28 2.17" preserveAspectRatio="none"><path d="M0 .5c3.07.55 9.27-.42 16.14 0 6.88.4 13.75.57 19.14-.11V0H0z" fill="%23ffb8bf"/><path d="M0 1c3.17.8 7.29-.38 10.04-.55 2.75-.17 9.25 1.47 12.67 1.3 3.43-.17 4.65-.84 7.05-.87 2.4-.02 5.52.88 5.52.88V0H0z" opacity=".5" fill="%23ffb8bf"/><path d="M0 1.85c2.56-.83 7.68-.3 11.79-.42 4.1-.12 6.86-.61 9.58-.28 2.73.33 5.61 1.17 8.61 1 3-.19 4.73-.82 5.3-.84V.1H0z" opacity=".5" fill="%23ffb8bf"/></svg>'); 
+    }
+    
+    @media (min-width:2100px){
+    .news-level::before{
+    background-size: 100% calc(2vw + 90px);
+    }
+    }
+     
+
+/* slider */
+.card5 {
+    height: auto;
+    border: none;
+    margin: 0.5rem;
+    border-radius: 20px;
+    color: rgb(47, 71, 89);
+    background: #F9AF90;
+    clip-path: polygon(50% 13%, 100% 0, 100% 100%, 0 100%, 0 0);
+}
+
+.card5-wrapper {
+    width: 100%;
+}
+
+.card5-body {
+    font-size: x-large;
+    font-weight: 300;
+    font-family: serif;
+    text-align: center;
+}
+
+#uline {
+    margin-top: 2rem;
+    font-weight: 800;
+    font-family: serif;
+}
+
+::selection {
+    color: rgb(247, 250, 246);
+    background-color: mediumseagreen;
+}
+
+.col-md-3 ul {
+    list-style: none;
+}
+
+.col-md-3 ul li a {
+    font-family: serif;
+    font-weight: 800;
+    font-size: x-large;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.Aboutchild {
+    padding: 200px 0;
+    color: #c9fbe7;
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../RJJIMAGES/ab.png.jpg);
+}
+.form-area{
+    display: grid;
+    top:60px;
+    right: 40px;
+    position: absolute;
+    place-items: center Important!;
+    /* background-image: linear-gradient(rgb(30, 116, 106), rgb(111, 161, 144)); */
+    background: rgb(27, 26, 26);
+    opacity: 0.6;
+    border-radius: 10px;
+}
+.form-wrapper{
+    width:auto;
+    height: auto;
+    padding:50px 30px;
+    position: relative;
+    box-shadow: 10px 20px 1rem 0 rgb(0,0,0,0.2);
+}
+.form-wrapper p{
+    color: #fbf5f5;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.form-wrapper input{
+    border: none;
+    border-bottom: 1px solid #fefbfb;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: rgb(29, 28, 28);
+    font-size: 16px;
+    width:100%;
+    margin-bottom: 20px;
+}
+.form-wrapper a{
+    width:100%;
+    padding: 5px;
+    color: #faf8f8;
+    background: #015871;
+    text-decoration: none;
+}
+/* =====================================Latest New===================== */
+.news{
+    background: rgb(181, 220, 220);
+    text-align: center;
+    transition: 2s;
+    width:auto;
+    height: auto;
+    font-family: 'DM Serif Display', serif;
+    clip-path: polygon(0% 0%, 95% 0, 100% 50%, 94% 100%, 0% 100%);
+}
+.news:hover{
+    transform: translateX(3em);
+}
+.news p{
+    color: #015871;
+    padding: 1rem 0 ;
+}
+.news-text{
+    color: #015871;
+    font-family: 'DM Serif Display', serif;
+}
+.box-1{
+    border: 2px solid fixed;
+}
+/* ==============co============ */
+.connect a {
+    color: green;
+    font-size: x-large;
+    font-weight: 600;
+    font-family: serif;
+    text-decoration: none;
+}
+.clippolygon {
+    height: auto;
+    clip-path: polygon(0 1%, 100% 14%, 100% 100%, 0 100%, 0 15%, 100% 0);
+    background: linear-gradient(to bottom, rgba(95, 119, 251, 0.52), rgba(161, 25, 219, 0.73));
+}
+
+#iconimg {
+    border-radius: 50px;
+    clip-path: polygon(49% 0, 100% 23%, 100% 77%, 48% 100%, 0 73%, 0 22%);
+}
+/* ====================Image Zoom Hover================ */
+.gs img {
+    width: 100%;
+    transition: 0.5s all ease-in-out;
+}
+  
+.gs:hover img {
+    transform: scale(1.1);
+}
+/* ======================community services============= */
+.card-1{
+    width:auto;
+    height: 200px;
+    margin-top: 3rem;
+    padding:2rem;
+    text-align: center;
+    font-family: 'Crimson Text', serif;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    box-shadow: 5px 5px 5px 5px rgba(90, 90, 90, 0.2);
+}
+.card-1 i{
+    padding: 3rem;
+    color: #f3efed;
+    background: rgb(234, 178, 76);
+    clip-path: circle(50% at 50% 50%);
+}
+.card-2{
+    width:auto;
+    height: auto;
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+    background: rgb(234, 178, 76);
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    font-family: 'Crimson Text', serif;
+    /* clip-path: polygon(75% 0%, 100% 0, 100% 99%, 51% 89%, 0 100%, 0% 0%); */
+    box-shadow: 5px 5px 5px 5px rgba(87, 87, 87, 0.2);
+}
+.control-pre,
+.control-nex{
+    margin-top: 500px;
+}
